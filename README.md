@@ -12,3 +12,7 @@ You can run with any of the following commands
 - yarn run dev
 - yarn vite
 - yarn run vite
+
+# Testing
+
+- yarn test

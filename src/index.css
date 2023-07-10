@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* @keyframes openYourHeart {
+  from {
+    r: 0;
+  }
+  to {
+    r: 60px;
+  }
+}
+
+#myClip circle {
+  animation: openYourHeart 15s infinite;
+} */
+
+.wave-splitter {
+}
