@@ -1,5 +1,18 @@
 @tailwind base;
 @tailwind components;
+
+/* - adding aspect ratio class with default styling 
+   - added before utilities so that it can be overwritten
+   - extended in tailwind's config.js
+   - we could write all these inline but we are learning tailwind's extension powers  */
+.aspect-6x5 {
+  @apply relative pb-5/6
+}
+
+.aspect-6x5 > * {
+  @apply absolute inset-0 h-full
+}
+
 @tailwind utilities;
 
 
