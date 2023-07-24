@@ -12,11 +12,11 @@ const BlogListItem: FC = (): ReactElement => {
         </p>
       </div>
       <div className="mt-6 sm:overflow-x-auto">
-        <div className="px-4 sm:flex sm:-ml-2 sm:pb-8">
+        <div className="px-4 sm:inline-flex sm:pb-8">
           {
             [1, 2, 3, 4].map(val => (
               <div key={val}
-                className={`${val > 1 ? 'mt-10' : ''} sm:mt-0 sm:max-w-xs sm:w-full sm:flex-shrink-0 sm:px-2`}>
+                className={`${val > 1 ? 'mt-10 sm:ml-4' : ''} sm:mt-0 sm:w-80 sm:flex-shrink-0`}>
                 <div className="aspect-6x5">
                   <img className="rounded-lg shadow-md object-cover" src={MyReactTailwind} alt="" />
                 </div>

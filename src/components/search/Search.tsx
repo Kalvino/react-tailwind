@@ -23,23 +23,21 @@ const Search: FC = (): ReactElement => {
       </div>
 
       <form className={open ? "" : "hidden"}>
-        <div className="px-4 py-4 border-t border-gray-900 sm:flex sm:-mx-2">
-          <div className="flex -mx-2 sm:w-1/2 sm:mx-0">
-            <label className="block w-1/2 px-2">
+        <div className="px-4 py-4 border-t border-gray-900">
+          <div className="flex flex-wrap -mx-2">
+            <label className="block w-1/2 px-2 sm:w-1/4">
               <span className="text-sm font-semibold text-gray-500">Bedrooms</span>
               <select className="shadow text-white mt-1 form-select block w-full focus:bg-gray-600" name="" id="">
                 <option value="">4</option>
               </select>
             </label>
-            <label className="block w-1/2 px-2">
+            <label className="block w-1/2 px-2 sm:w-1/4">
               <span className="text-sm font-semibold text-gray-500">Bathrooms</span>
               <select className="shadow text-white mt-1 form-select block w-full focus:bg-gray-600" name="" id="">
                 <option value="">2</option>
               </select>
             </label>
-          </div>
-          <div className="mt-4 sm:w-1/2 sm:mt-0 sm:px-2">
-            <label className=" ">
+            <label className="mt-4 block w-full px-2 sm:mt-0 sm:w-1/2">
               <span className="text-sm font-semibold text-gray-500">Price Range</span>
               <select className="shadow text-white mt-1 form-select block w-full focus:bg-gray-600" name="" id="">
                 <option value="">Up to $2,000/wk</option>

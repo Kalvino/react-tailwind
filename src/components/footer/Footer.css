@@ -1,3 +1,4 @@
 .subscribe {
-  border: 2px solid #297555;
+  @apply  mt-4 w-full border-2 border-cyan-600 rounded h-10 px-2 text-orange-500 
+  /* border: 10px solid #297555; */
 }
