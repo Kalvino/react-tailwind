@@ -31,7 +31,7 @@ const Team: FC = (): ReactElement => {
         <div className="max-w-2xl">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Meet our team</h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Feel free to checkout our team and what they are about in their personal spaces. Be the judge and let us know the verdict!
+            Feel free to checkout our team and what they are all about in their personal spaces. Be the judge and return the verdict!
           </p>
         </div>
         <ul role="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">

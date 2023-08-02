@@ -14,7 +14,7 @@ const BlogListItem: FC = (): ReactElement => {
       <div className="mt-6 sm:overflow-x-auto">
         <div className="px-4 sm:inline-flex sm:pb-8">
           {
-            [1, 2, 3, 4].map(val => (
+            [1, 2, 3, 4, 5, 6, 8, 9].map(val => (
               <div key={val}
                 className={`${val > 1 ? 'mt-10 sm:ml-4' : ''} sm:mt-0 sm:w-80 sm:flex-shrink-0`}>
                 <div className="aspect-6x5">
